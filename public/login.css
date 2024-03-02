@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("C:/Users/punee/Desktop/project/trial/images/premium_photo-1673953509975-576678fa6710 (1).avif");
+    background-color:aquamarine;
+    background-blend-mode:multiply ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container {
+    width:600px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-top: 60px;
+    color:white;
+    justify-content: space-evenly;
+
+}
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align:center;
+    margin-top: 20px;
+    color:aliceblue;
+}
+input[type='text'] {
+    height:40px;
+    width:400px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-left: 10px;
+    opacity: 0.6;
+    border: none;
+}
+input[type='password'] {
+    height:40px;
+    width:400px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-left: 10px;
+    opacity: 0.6;
+}
+input[type='submit'] {
+    width:200px;
+    height:50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:rgb(46, 46, 200);
+    color:white;
+    border: none;
+}
+a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size:20px;
+    color:white;
+}
