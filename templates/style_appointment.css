@@ -1,0 +1,96 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+#doc1 {
+    background-image: url(images/doc1.avif);
+}
+.boxes {
+    border-radius: 30px;
+    width:700px;
+    margin:30px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-top:70px;
+}
+.photo{
+    background-image: url(images/doc1.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    height:300px;
+    width:300px;
+    margin-right:90px;
+    border: 2px solid black;
+}
+.content {
+    text-align: left;
+}
+.content h1 {
+    text-align:left;
+    font-size:20px;
+    padding:10px;
+    margin:5px;
+    font-weight: 200;
+}
+#blue {
+    height: 50px;
+    background-color: #4B7BF5;
+}
+hr {
+    width:90vw;
+    margin:40px;
+}
+#slots {
+    padding-left: 30px;
+}
+.container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 40px;
+    grid-row-gap:1em;
+    grid-column-gap:1em;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.baksa {
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+#baksa-1 {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(11, 160, 11);
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 900;
+}
+#baksa-2 {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(11, 160, 11);
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 900;
+}
+#baksa-3 {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(11, 160, 11);
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 900;
+}
+#baksa-4 {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(11, 160, 11);
+    text-align: center;
+    padding-top: 8px;
+    font-weight: 900;
+}

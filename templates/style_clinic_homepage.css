@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+h1{
+    display:inline-block;
+    padding-left:560px;
+    margin-bottom: 30px;
+}
+#wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    justify-items: center;
+}
+.boxes {
+    border-radius: 30px;
+    width:700px;
+    margin:30px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow:5px 10px 10px rgb(44, 157, 44);
+}
+section h1 {
+    display: inline-block;
+    padding: 70px;
+    padding-left: 660px;
+    font-size: 30px;
+}
+#search {
+    background-color: rgb(85, 85, 231);
+    height:55px;
+}
+#images{
+    background-image: url(images/clinic_about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:550px;
+}
+input[type='text'] {
+    padding:5px;
+    width:500px;
+    margin-left:520px;
+    margin-bottom:10px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+.photo{
+    background-image: url(images/doc1.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+}
+.content {
+    text-align: left;
+}
+.content h1 {
+    text-align:left;
+    font-size:20px;
+    padding:10px;
+    margin:5px;
+}
+#doc1 {
+    background-image: url(images/doc1.avif);
+}
+#doc2 {
+    background-image: url(images/doc2.avif);
+}
+#doc3 {
+    background-image: url(images/doc3.avif);
+}
+#doc4 {
+    background-image: url(images/doc4.webp);
+}
+#doc5 {
+    background-image: url(images/doc5.webp);
+}
+a {
+    color: black;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 300px;
+    margin-bottom: 60px;
+    
+}
+.baksa {
+    text-align: center;
+}
+#blue {
+    height: 50px;
+    background-color: #4B7BF5;
+    margin-bottom: 13px;
+}
+#baksa-1 {
+    grid-column-start:1;
+    grid-column-end:3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 100px;
+}
+.baksa h1 {
+    font-size: 50px;
+    padding:30px;
+}
+.baksa p {
+    color:lightslategray;
+    font-size: 20px;
+
+}
+#baksa-2 {
+    background-image: url(images/img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+hr {
+    margin:20px;
+    width:90vw;
+}
